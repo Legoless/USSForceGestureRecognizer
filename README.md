@@ -18,6 +18,8 @@ The easiest way to install **USSForceGestureRecognizer** is to drag & drop `USSF
 ```swift
 let recognizer = USSForceGestureRecognizer(target: self, action: "forceTouchDeepRecognized:")
 recognizer.touchType = .Deep
+
+view.addGestureRecognizer(recognizer)
 ```
 
 To support all 3 types of finger interaction on specific `UIView`, three recognizers have to be added:
