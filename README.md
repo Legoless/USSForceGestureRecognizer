@@ -1,6 +1,6 @@
 # USSForceGestureRecognizer
 
-USSForceGestureRecognizer is an **experimental** force gesture recognizer for iOS. It is written in Swift 2.0 and supports iOS 9 and onwards. The purpose of this project is to test out developer APIs for 3D Touch (previously Force Touch, which is still referenced in the APIs) and provide a convenience API with `UIGestureRecognizer` pattern, instead of `UITouch`.
+**USSForceGestureRecognizer** is an **experimental** force gesture recognizer for iOS. It is written in **Swift 2.0** and supports iOS 9 and onwards. The purpose of this project is to test out developer APIs for 3D Touch (previously Force Touch, which is still referenced in the APIs) and provide a convenience API with `UIGestureRecognizer` pattern, instead of `UITouch`.
 
 Because we currently cannot use [3D Touch APIs](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/3DTouchAPIs.html#//apple_ref/doc/uid/TP40016543-CH4-SW1) in the simulator, we are patiently waiting for iPhone 6s to be released, so we can test them.
 
