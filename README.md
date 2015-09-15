@@ -1,3 +1,7 @@
-# ForceTouch
+# USSForceGestureRecognizer
 
-An experimental project for 3D Touch on new iPhones.
+An experimental force gesture recognizer for iOS (will be updated once iPhone 6s is released).
+
+# License
+
+MIT License
