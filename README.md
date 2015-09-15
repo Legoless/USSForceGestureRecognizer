@@ -21,9 +21,9 @@ recognizer.touchType = .Deep
 ```
 
 To support all 3 types of finger interaction on specific `UIView`, three recognizers have to be added:
-- UITapGestureRecognizer
-- USSForceGestureRecognizer - With `touchType` property set to `.Shallow` *(default)*.
-- USSForceGestureRecognizer - With `touchType` property set to `.Deep`.
+- `UITapGestureRecognizer`
+- `USSForceGestureRecognizer` - With `touchType` property set to `.Shallow` *(default)*.
+- `USSForceGestureRecognizer` - With `touchType` property set to `.Deep`.
 
 # Disclaimer
 
