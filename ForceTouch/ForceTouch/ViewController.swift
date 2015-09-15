@@ -22,10 +22,10 @@ class ViewController: UIViewController {
             print("I do not support force touch!")
         }
         
-        let shallowRecognizer = USSForceGestureRecognizer(target: self, action: "forceTouchDeepRecognized:")
+        let shallowRecognizer = USSForceGestureRecognizer(target: self, action: "forceTouchShallowRecognized:")
         shallowRecognizer.touchType = .Shallow
         
-        let deepRecognizer = USSForceGestureRecognizer(target: self, action: "forceTouchShallowRecognized:")
+        let deepRecognizer = USSForceGestureRecognizer(target: self, action: "forceTouchDeepRecognized:")
         deepRecognizer.touchType = .Deep
         
         self.touchView.addGestureRecognizer(shallowRecognizer)
