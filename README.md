@@ -27,7 +27,7 @@ To support all 3 types of finger interaction on specific `UIView`, three recogni
 
 # Disclaimer
 
-*The project will be updated
+*The project will be updated once we can test this on a physical device. It only supports force taps for now, but if it turns out it would be possible to add force swipe and pan recognizers, we will update the project later.*
 
 Contact
 ======
