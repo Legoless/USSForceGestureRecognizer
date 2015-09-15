@@ -16,7 +16,7 @@ The easiest way to install **USSForceGestureRecognizer** is to drag & drop `USSF
 **USSForceGestureRecognizer** is easily added to an `UIView`, just like a normal `UIGestureRecognizer`.
 
 ```swift
-let recognizer = USSForceGestureRecognizer(target: self, action: "forceTouchDeewRecognized:")
+let recognizer = USSForceGestureRecognizer(target: self, action: "forceTouchDeepRecognized:")
 recognizer.touchType = .Deep
 ```
 
